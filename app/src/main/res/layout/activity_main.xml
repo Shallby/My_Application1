@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    >
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/message"></EditText>//用了一串文字代替
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/send"
+        android:onClick="sendMessage"/>
+</LinearLayout>

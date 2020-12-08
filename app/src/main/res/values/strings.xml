@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="message">Enter a message</string>
+    <string name="send">Send1</string>
+    <string name="second">这是第二个Activity</string>
+    <string name="third">这是第三个Activity</string>
+</resources>
